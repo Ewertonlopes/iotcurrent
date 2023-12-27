@@ -1,14 +1,29 @@
 #include "curr.h"
 
-double curr_index_output = 0;
+float max_current = 0.0f; 
+float current_value;
 
 void curr_task()
 {
     ESP_LOGI(currTAG , "Task Started\n");
+    uint16_t index = 0;
     while (1) {
-        curr_index_output = curr_read();
+        current_value = curr_read();
         
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        if(current_value >= max_current)
+        {
+            max_current = current_value;
+            index = 0;
+        }
+        
+        index += 1;
+
+        if(index > 512)
+        {
+            max_current = 0.0f;
+            index = 0;
+        }
+        vTaskDelay(pdMS_TO_TICKS(10));
     }
 }
 
@@ -26,14 +41,13 @@ void curr_init()
 double curr_read()
 {
     uint16_t adc_data[10];
-    uint16_t tension;
-    
+    float current = 0.0;
+
     if (ESP_OK == adc_read(&adc_data[0])) 
     {
-        uint16_t tension = (uint16_t)(((float)adc_data[0]/1024.0f) * 3300.0f);
+        float tension = (float)(adc_data[0] - 33)/1024.0f * 3.3f;
 
-        double current = 0.000001515*(tension - 1.65);
-        ESP_LOGI(currTAG , "ADC READ: %d\r\n", adc_data[0]);
+        current = 6.0607 * (tension - 1.65);
     }
-    return tension;
+    return current;
 }

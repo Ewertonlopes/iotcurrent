@@ -4,7 +4,7 @@ src/esp_supplicant/esp_wpa3.o: \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/utils/includes.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/port/include/supplicant_opt.h \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -95,7 +95,7 @@ src/esp_supplicant/esp_wpa3.o: \
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/port/include/supplicant_opt.h:
 
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

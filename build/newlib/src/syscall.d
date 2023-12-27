@@ -1,6 +1,6 @@
 src/syscall.o: \
  /home/edev/esp/ESP8266_RTOS_SDK/components/newlib/src/syscall.c \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
@@ -42,7 +42,7 @@ src/syscall.o: \
  /home/edev/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/termios.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/poll.h
 
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
 

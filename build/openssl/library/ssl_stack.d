@@ -8,7 +8,7 @@ library/ssl_stack.o: \
  /home/edev/esp/ESP8266_RTOS_SDK/components/openssl/include/internal/x509_vfy.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/openssl/include/internal/ssl_dbg.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_opt.h \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_port.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_types.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
@@ -34,7 +34,7 @@ library/ssl_stack.o: \
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_opt.h:
 
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_port.h:
 

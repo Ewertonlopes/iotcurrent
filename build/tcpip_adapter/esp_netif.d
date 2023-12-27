@@ -1,7 +1,7 @@
 esp_netif.o: \
  /home/edev/esp/ESP8266_RTOS_SDK/components/tcpip_adapter/esp_netif.c \
  /home/edev/esp/ESP8266_RTOS_SDK/components/tcpip_adapter/include/esp_netif.h \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_types.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_interface.h \
@@ -65,7 +65,7 @@ esp_netif.o: \
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/tcpip_adapter/include/esp_netif.h:
 
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_types.h:
 

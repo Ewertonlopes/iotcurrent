@@ -1,7 +1,7 @@
 src/select.o: \
  /home/edev/esp/ESP8266_RTOS_SDK/components/newlib/src/select.c \
  /home/edev/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/select.h \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/vfs/include/esp_vfs.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
@@ -39,7 +39,7 @@ src/select.o: \
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/select.h:
 
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/vfs/include/esp_vfs.h:
 

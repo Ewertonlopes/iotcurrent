@@ -2,7 +2,7 @@ esp_http_client.o: \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp_http_client/esp_http_client.c \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
@@ -123,7 +123,7 @@ esp_http_client.o: \
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h:
 
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h:
 

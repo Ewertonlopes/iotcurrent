@@ -26,9 +26,55 @@
 
 #include "wifimod.h"
 
-#include "mqttmod.h"
+//#include "mqttmod.h"
 
 #include "curr.h"
+
+void makefloat(float number, char* buffer)
+{
+   int16_t number_n = (uint16_t)(number);
+   uint16_t number_v = 0;
+   if(number > 0)
+   {
+      number_v = (uint16_t)(number*1000.0f - (float)number_n*1000.0f);
+      if(number_v<100)
+      {
+         if(number_v<10)
+         {
+            sprintf(buffer, "%u.00%u", number_n,number_v);
+         }
+         else
+         {
+            sprintf(buffer, "%u.0%u", number_n,number_v);
+         }   
+      }
+      else
+      {
+         sprintf(buffer, "%u.%u", number_n,number_v);  
+      }
+   }
+   else
+   {
+      number_v = (uint16_t)((float)number_n*1000.0f - number*1000.0f);
+      if(number_v<100)
+      {
+         if(number_v<10)
+         {
+            sprintf(buffer, "-%u.00%u", number_n,number_v);
+         }
+         else
+         {
+            sprintf(buffer, "-%u.0%u", number_n,number_v);
+         }
+      }
+      else
+      {
+         sprintf(buffer, "-%u.%u", number_n,number_v);  
+      }
+   }
+}
+
+static const char *mTAG = "Main";
 
 void app_main(void)
 {
@@ -46,16 +92,16 @@ void app_main(void)
    // esp_mqtt_client_handle_t mclient;
    // mclient = mqtt_app_start();
    // int msg_id;
-   char buffer[6];
+   char buffer[8];
 
-   
+
    while(true)
    {
-      sprintf(buffer, "%lf", curr_index_output);
-      const char *msge2 = buffer;
+      makefloat(max_current*0.707,buffer);
+      //const char *msge2 = buffer;
       //msg_id = esp_mqtt_client_publish(mclient, "/outside/metsta/uv", msge2, 0, 1, 0);
+      ESP_LOGI(mTAG, "Corrente: %s",buffer);
       
-
       vTaskDelay(pdMS_TO_TICKS(1000));
       //printf("Entering Light Sleep Mode\n");
       //esp_light_sleep_start();

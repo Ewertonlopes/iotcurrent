@@ -13,7 +13,7 @@
 
 static const char *currTAG = "Current Sensor";
 
-extern double curr_index_output;
+extern float max_current;
 
 void curr_task();
 void curr_init();

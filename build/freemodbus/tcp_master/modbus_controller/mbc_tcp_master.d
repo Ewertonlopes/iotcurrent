@@ -2,7 +2,7 @@ tcp_master/modbus_controller/mbc_tcp_master.o: \
  /home/edev/esp/ESP8266_RTOS_SDK/components/freemodbus/tcp_master/modbus_controller/mbc_tcp_master.c \
  /home/edev/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/time.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -79,7 +79,7 @@ tcp_master/modbus_controller/mbc_tcp_master.o: \
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
 
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

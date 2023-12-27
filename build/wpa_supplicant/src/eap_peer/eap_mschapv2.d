@@ -1,7 +1,7 @@
 src/eap_peer/eap_mschapv2.o: \
  /home/edev/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c \
  /home/edev/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/rsn_supp/wpa.h \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -47,7 +47,7 @@ src/eap_peer/eap_mschapv2.o: \
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/rsn_supp/wpa.h:
 
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

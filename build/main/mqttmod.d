@@ -1,10 +1,10 @@
 mqttmod.o: \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/main/mqttmod.c \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/main/mqttmod.h \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/main/mqttmod.c \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/main/mqttmod.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -94,7 +94,7 @@ mqttmod.o: \
  /home/edev/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_client.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_config.h
 
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/main/mqttmod.h:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/main/mqttmod.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi.h:
 
@@ -102,7 +102,7 @@ mqttmod.o: \
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 
@@ -279,4 +279,4 @@ mqttmod.o: \
 /home/edev/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_client.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_config.h:
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/main/./mqttmod.c:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/main/./mqttmod.c:

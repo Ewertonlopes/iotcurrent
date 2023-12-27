@@ -1,6 +1,6 @@
 source/startup.o: \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/source/startup.c \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h \
@@ -86,7 +86,7 @@ source/startup.o: \
  /home/edev/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/task.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/esp_newlib.h
 
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h:
 

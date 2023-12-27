@@ -1,9 +1,9 @@
 wifimod.o: \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/main/wifimod.c \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/main/wifimod.h \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/main/wifimod.c \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/main/wifimod.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -83,13 +83,13 @@ wifimod.o: \
  /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/err.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sys.h
 
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/main/wifimod.h:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/main/wifimod.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/build/include/sdkconfig.h:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/build/include/sdkconfig.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 
@@ -246,4 +246,4 @@ wifimod.o: \
 /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/err.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sys.h:
-/home/edev/Documents/Repositories/IoTDevices/iotweatherstation/main/./wifimod.c:
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/main/./wifimod.c:
