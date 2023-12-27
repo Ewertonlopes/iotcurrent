@@ -93,14 +93,19 @@ void app_main(void)
    // mclient = mqtt_app_start();
    // int msg_id;
    char buffer[8];
+   char pbuffer[8];
 
 
    while(true)
    {
-      makefloat(max_current*0.707,buffer);
+      float current = max_current*0.707;
+      makefloat(current,buffer);
+      float potency = current*220;
+      makefloat(potency,pbuffer);
       //const char *msge2 = buffer;
       //msg_id = esp_mqtt_client_publish(mclient, "/outside/metsta/uv", msge2, 0, 1, 0);
       ESP_LOGI(mTAG, "Corrente: %s",buffer);
+      ESP_LOGI(mTAG, "Potencia: %s",pbuffer);
       
       vTaskDelay(pdMS_TO_TICKS(1000));
       //printf("Entering Light Sleep Mode\n");
