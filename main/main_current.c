@@ -89,9 +89,9 @@ void app_main(void)
    //esp_wifi_stop();
    //esp_power_consumption_info(true);
 
-   // esp_mqtt_client_handle_t mclient;
-   // mclient = mqtt_app_start();
-   // int msg_id;
+   esp_mqtt_client_handle_t mclient;
+   mclient = mqtt_app_start();
+   int msg_id;
    char buffer[8];
    char pbuffer[8];
 
@@ -102,10 +102,15 @@ void app_main(void)
       makefloat(current,buffer);
       float potency = current*220;
       makefloat(potency,pbuffer);
-      //const char *msge2 = buffer;
-      //msg_id = esp_mqtt_client_publish(mclient, "/outside/metsta/uv", msge2, 0, 1, 0);
-      ESP_LOGI(mTAG, "Corrente: %s",buffer);
-      ESP_LOGI(mTAG, "Potencia: %s",pbuffer);
+
+      const char *msge = buffer;
+      msg_id = esp_mqtt_client_publish(mclient, "/inside/table/current", msge, 0, 1, 0);
+
+      const char *msge2 = pbuffer;
+      msg_id = esp_mqtt_client_publish(mclient, "/inside/table/potency", msge2, 0, 1, 0);
+
+      // ESP_LOGI(mTAG, "Corrente: %s",buffer);
+      // ESP_LOGI(mTAG, "Potencia: %s",pbuffer);
       
       vTaskDelay(pdMS_TO_TICKS(1000));
       //printf("Entering Light Sleep Mode\n");
