@@ -41,7 +41,7 @@ esp_mqtt_client_handle_t  mqtt_app_start(void)
 {
     esp_mqtt_client_config_t mqtt_cfg = 
     {
-        .uri = "mqtt://192.168.0.2",
+        .uri = "mqtt://192.168.0.5",
     };
 
     esp_mqtt_client_handle_t client = esp_mqtt_client_init(&mqtt_cfg);

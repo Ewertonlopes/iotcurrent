@@ -26,7 +26,7 @@
 
 #include "wifimod.h"
 
-//#include "mqttmod.h"
+#include "mqttmod.h"
 
 #include "curr.h"
 

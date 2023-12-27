@@ -88,6 +88,23 @@ main_current.o: \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_types.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/err.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sys.h \
+ /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/main/mqttmod.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sockets.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/poll.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/netif.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/pbuf.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/stats.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/mem.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/memp.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/priv/memp_std.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/priv/memp_priv.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/priv/mem_priv.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/inet.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/errno.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/dns.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/netdb.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_client.h \
+ /home/edev/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_config.h \
  /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/main/curr.h \
  /home/edev/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/adc.h
 
@@ -266,6 +283,40 @@ main_current.o: \
 /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/err.h:
 
 /home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sys.h:
+
+/home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/main/mqttmod.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sockets.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/poll.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/netif.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/pbuf.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/stats.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/mem.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/memp.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/priv/memp_std.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/priv/memp_priv.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/priv/mem_priv.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/inet.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/errno.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/dns.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/netdb.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_client.h:
+
+/home/edev/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_config.h:
 
 /home/edev/Documents/Repositories/Projects/IoTDevices/iotcurrent/main/curr.h:
 
