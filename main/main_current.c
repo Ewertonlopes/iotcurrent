@@ -28,31 +28,32 @@
 
 #include "mqttmod.h"
 
-
+#include "curr.h"
 
 void app_main(void)
 {
    ESP_ERROR_CHECK(nvs_flash_init());
-
+   
    //ESP_LOGI(TAG, "ESP_WIFI_MODE_STA");
    wifi_init_sta();
-
    
+   curr_init();
+
    //esp_sleep_enable_timer_wakeup(10000000);
    //esp_wifi_stop();
    //esp_power_consumption_info(true);
 
-   esp_mqtt_client_handle_t mclient;
-   mclient = mqtt_app_start();
-   int msg_id;
+   // esp_mqtt_client_handle_t mclient;
+   // mclient = mqtt_app_start();
+   // int msg_id;
    char buffer[6];
 
    
    while(true)
    {
-      sprintf(buffer, "%u", uv_index_output);
+      sprintf(buffer, "%lf", curr_index_output);
       const char *msge2 = buffer;
-      msg_id = esp_mqtt_client_publish(mclient, "/outside/metsta/uv", msge2, 0, 1, 0);
+      //msg_id = esp_mqtt_client_publish(mclient, "/outside/metsta/uv", msge2, 0, 1, 0);
       
 
       vTaskDelay(pdMS_TO_TICKS(1000));
