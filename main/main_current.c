@@ -28,18 +28,11 @@
 
 #include "mqttmod.h"
 
-#include "dht11.h"
-#include "uv.h"
-
-float temperature = 0.0f;
-float humidity = 0.0f;
 
 
 void app_main(void)
 {
    ESP_ERROR_CHECK(nvs_flash_init());
-
-   uv_init();
 
    //ESP_LOGI(TAG, "ESP_WIFI_MODE_STA");
    wifi_init_sta();

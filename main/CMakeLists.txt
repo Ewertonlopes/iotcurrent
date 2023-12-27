@@ -1,3 +1,3 @@
-set(COMPONENT_SRCS "iot_wheater_station.c")
+set(COMPONENT_SRCS "main_current.c")
 
 register_component()
