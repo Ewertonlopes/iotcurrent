@@ -3,9 +3,9 @@
 ## Components
 
 - Esp8266 PRO d1 mini module.
-- DHT11 - Temperature and Humidity Sensor.
-- UV Sensor.
-- 10 kohm Resistence.
+- Current Sensor.
+- 330 ohm Resistence.
+- 2x 10 kohm Resistance
 
 ## Firmware Struct
 
@@ -13,9 +13,7 @@ Using esp IDF, Espressif IoT Development Network, the following modules were cre
 
 - TCP/IP Module.
 - MQTT Client Module.
-- Temperature and Humidity Read Module.
-- UV Read Module.
-- Rain Recognition Module.
+- Current Read Module.
 
 ## Version
 
