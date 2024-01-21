@@ -1,13 +1,23 @@
-# Wifi Power Save Example
+# IoT weather station
 
-This example shows how to use power save mode of wifi.
+## Components
 
-Power save mode only works in station mode. If the modem sleep mode is enabled, station will switch between active and sleep state periodically after connecting to AP successfully. In sleep state, RF, PHY and BB are turned off in order to reduce power consumption. Station can keep connection with AP in modem sleep mode.
+- Esp8266 PRO d1 mini module.
+- DHT11 - Temperature and Humidity Sensor.
+- UV Sensor.
+- 10 kohm Resistence.
 
-* No power save: This is default mode. And the esp8266 will work with full power.
+## Firmware Struct
 
-* Minimum modem sleep: In minimum modem sleep mode, station wakes up every DTIM to receive beacon. Broadcast data will not be lost because it is transmitted after DTIM. However, it can not save much more power if DTIM is short for DTIM is determined by AP.
+Using esp IDF, Espressif IoT Development Network, the following modules were created using the Esp IDF as a SDK:
 
-* Maximum modem sleep: In maximum modem sleep mode, station wakes up every listen interval to receive beacon. Broadcast data may be lost because station may be in sleep state at DTIM time. If listen interval is longer, more power is saved but broadcast data is more easy to lose. 
+- TCP/IP Module.
+- MQTT Client Module.
+- Temperature and Humidity Read Module.
+- UV Read Module.
+- Rain Recognition Module.
 
-* others: not supported yet.
+## Version
+
+- Version 0.1
+Base of system.
